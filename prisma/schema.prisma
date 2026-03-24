@@ -81,6 +81,8 @@ model Show {
   updatedAt        DateTime            @updatedAt
   episodes         Episode[]
   ratings          Rating[]
+  bookmarks        Bookmark[]
+  watchHistory     WatchHistory[]
   genres           ShowGenre[]
   tags             ShowTag[]
   studios          ShowStudio[]
